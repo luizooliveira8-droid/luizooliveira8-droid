@@ -3,7 +3,7 @@
 
 </div>
 👋 Sobre mim
-Olá! Eu sou Luiz, desenvolvedor [SUA ÁREA] apaixonado por tecnologia e por transformar ideias em projetos reais.
+Olá! Eu sou Luiz, sou desenvolvedor de sistemas apaixonado por tecnologia e por transformar ideias em projetos reais.
 
 Atualmente estou focado em desenvolvemento de sistemas, buscando evoluir minhas habilidades e criar soluções cada vez melhores.
 
