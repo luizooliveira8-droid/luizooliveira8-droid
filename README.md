@@ -1,199 +1,49 @@
+Olá! 👋 Eu sou [SEU NOME]
+💻 [SEU CARGO / ÁREA]
+🚀 Buscando oportunidades para crescer profissionalmente e contribuir em projetos reais.
+
+👨‍💻 Sobre mim
+Sou [breve descrição sobre você].
+
+Tenho interesse em [área principal] e estou constantemente aprimorando meus conhecimentos em tecnologia.
+
+🔭 Atualmente trabalhando/estudando em [projeto ou tecnologia]
+🌱 Aprendendo [tecnologia]
+🎯 Buscando oportunidades como [cargo desejado]
+📍 [Cidade, Estado]
+📫 Contato: [seu e-mail]
+🛠️ Tecnologias
+Linguagens
 
 
-    const css = `
-    /* =====================================================
-       GITHUB HACKER CRT ULTRA
-       ===================================================== */
+Front-end
 
-    :root {
-        --bg: #010403;
-        --panel: #030b07;
-        --panel2: #06120c;
 
-        --green: #00ff66;
-        --green2: #00c853;
-        --cyan: #00ffe1;
+Ferramentas
 
-        --white: #d9ffe8;
-        --muted: #57816a;
 
-        --line: rgba(0,255,102,.18);
-        --glow: rgba(0,255,102,.35);
-    }
+🚀 Projetos em destaque
+📌 [Nome do Projeto]
+Breve descrição do projeto e do problema que ele resolve.
 
-    /* =====================================================
-       BASE
-       ===================================================== */
+Tecnologias: [Tecnologia 1] • [Tecnologia 2] • [Tecnologia 3]
 
-    html,
-    body {
-        background:
-            radial-gradient(
-                circle at 50% -20%,
-                rgba(0,255,102,.12),
-                transparent 40%
-            ),
-            radial-gradient(
-                circle at 100% 100%,
-                rgba(0,255,225,.06),
-                transparent 35%
-            ),
-            var(--bg) !important;
+🔗 Ver projeto
 
-        color: var(--white) !important;
-    }
+📌 [Nome do Projeto]
+Breve descrição do projeto.
 
-    body {
-        font-family:
-            "JetBrains Mono",
-            "Fira Code",
-            "Cascadia Code",
-            "Courier New",
-            monospace !important;
-    }
+Tecnologias: [Tecnologia 1] • [Tecnologia 2]
 
-    /* =====================================================
-       CRT SCANLINES
-       ===================================================== */
+🔗 Ver projeto
 
-    body::before {
-        content: "";
-        position: fixed;
-        inset: 0;
+📌 [Nome do Projeto]
+Breve descrição do projeto.
 
-        pointer-events: none;
+Tecnologias: [Tecnologia 1] • [Tecnologia 2]
 
-        z-index: 999998;
+🔗 Ver projeto
 
-        background:
-            repeating-linear-gradient(
-                0deg,
-                rgba(0,255,102,.025) 0px,
-                rgba(0,255,102,.025) 1px,
-                transparent 1px,
-                transparent 4px
-            );
-
-        opacity: .45;
-    }
-
-    /* =====================================================
-       CRT VIGNETTE
-       ===================================================== */
-
-    body::after {
-        content: "";
-
-        position: fixed;
-        inset: 0;
-
-        pointer-events: none;
-
-        z-index: 999997;
-
-        background:
-            radial-gradient(
-                ellipse at center,
-                transparent 50%,
-                rgba(0,0,0,.45) 100%
-            );
-
-        box-shadow:
-            inset 0 0 100px rgba(0,0,0,.7);
-    }
-
-    /* =====================================================
-       HEADER
-       ===================================================== */
-
-    .AppHeader {
-        background:
-            rgba(1,5,3,.94) !important;
-
-        backdrop-filter:
-            blur(14px);
-
-        border-bottom:
-            1px solid var(--line) !important;
-
-        box-shadow:
-            0 0 20px rgba(0,255,102,.08),
-            inset 0 -1px rgba(0,255,102,.05);
-    }
-
-    /* =====================================================
-       LINKS
-       ===================================================== */
-
-    a {
-        color:
-            var(--green) !important;
-
-        transition:
-            color .15s,
-            text-shadow .15s;
-    }
-
-    a:hover {
-        color:
-            #ffffff !important;
-
-        text-decoration:
-            none !important;
-
-        text-shadow:
-            0 0 5px var(--green),
-            0 0 12px var(--green),
-            0 0 25px rgba(0,255,102,.5);
-    }
-
-    /* =====================================================
-       PANELS
-       ===================================================== */
-
-    .Box {
-        background:
-            linear-gradient(
-                135deg,
-                rgba(5,17,11,.96),
-                rgba(1,7,4,.96)
-            ) !important;
-
-        border:
-            1px solid var(--line) !important;
-
-        border-radius:
-            3px !important;
-
-        box-shadow:
-            0 0 20px rgba(0,255,102,.025),
-            inset 0 0 30px rgba(0,255,102,.015);
-
-        transition:
-            border .2s,
-            box-shadow .2s,
-            transform .2s;
-    }
-
-    .Box:hover {
-        border-color:
-            rgba(0,255,102,.45) !important;
-
-        box-shadow:
-            0 0 20px rgba(0,255,102,.12),
-            inset 0 0 25px rgba(0,255,102,.025);
-
-        transform:
-            translateY(-1px);
-    }
-
-    /* =====================================================
-       BUTTONS
-       ===================================================== */
-
-    .Button,
-    .btn {
-        background:
-            #04100a !important;
-
-        color:
+📊 GitHub
+📫 Vamos conversar?
+⭐ Obrigado por visitar meu perfil!
