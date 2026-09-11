@@ -1,104 +1,391 @@
-👋 Olá, eu sou SEU NOME!
+```
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hacker Interface</title>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:6C63FF,100:00D9FF&height=200&section=header&text=SEU%20NOME&fontSize=45&fontColor=ffffff&animation=fadeIn&fontAlignY=35" />
-</p>
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-<p align="center">
-  <strong>💻 Desenvolvedor | 🚀 Criador | 🎨 Entusiasta de tecnologia</strong>
-</p>
+body {
+    background: #000;
+    color: #00ff66;
+    font-family: "Courier New", monospace;
+    overflow: hidden;
+}
 
----
+/* Matrix */
+#matrix {
+    position: fixed;
+    inset: 0;
+    z-index: -3;
+    opacity: .35;
+}
 
-## 🧑‍💻 Sobre mim
+/* Scanlines */
+body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    background: repeating-linear-gradient(
+        to bottom,
+        rgba(0,255,100,.03) 0px,
+        rgba(0,255,100,.03) 1px,
+        transparent 2px,
+        transparent 4px
+    );
+    z-index: 10;
+}
 
-Olá! Eu sou **SEU NOME** 👋
+/* Glow */
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    box-shadow: inset 0 0 120px #00ff3322;
+    z-index: 9;
+}
 
-- 🔭 Atualmente trabalhando em: **SEU PROJETO**
-- 🌱 Aprendendo: **TECNOLOGIAS**
-- 💡 Interessado em: **DESENVOLVIMENTO WEB / IA / ETC**
-- 📍 Brasil 🇧🇷
-- ⚡ Fun fact: **COLOQUE ALGO SOBRE VOCÊ**
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 10vh auto;
+    padding: 35px;
+    border: 1px solid #00ff66;
+    background: rgba(0, 10, 5, .82);
+    box-shadow:
+        0 0 15px #00ff66,
+        inset 0 0 25px #00ff6622;
+    animation: appear 1.5s ease;
+}
 
----
+@keyframes appear {
+    from {
+        opacity: 0;
+        transform: scale(.95);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
 
-## 🚀 Tecnologias
+h1 {
+    font-size: clamp(30px, 7vw, 70px);
+    text-align: center;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    animation: glitch 1.5s infinite;
+}
 
-<p align="center">
+@keyframes glitch {
+    0%, 90%, 100% {
+        text-shadow: 0 0 10px #00ff66;
+        transform: translate(0);
+    }
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,nodejs,python,java,git,github,vscode,docker" />
+    92% {
+        text-shadow:
+            3px 0 #ff003c,
+            -3px 0 #00ffff;
+        transform: translate(-2px, 1px);
+    }
 
-</p>
+    94% {
+        text-shadow:
+            -3px 0 #ff003c,
+            3px 0 #00ffff;
+        transform: translate(2px, -1px);
+    }
+}
 
----
+.subtitle {
+    text-align: center;
+    color: #66ff99;
+    margin-bottom: 30px;
+}
 
-## 📊 Minhas estatísticas
+.terminal {
+    background: #020b05;
+    border: 1px solid #00aa44;
+    padding: 20px;
+    min-height: 220px;
+    box-shadow: inset 0 0 20px #00ff6611;
+}
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&langs_count=8&theme=tokyonight"/>
-</p>
+.line {
+    margin: 10px 0;
+    white-space: nowrap;
+    overflow: hidden;
+}
 
----
+.prompt {
+    color: #00ffff;
+}
 
-## 🔥 Minha sequência
+.cursor {
+    display: inline-block;
+    width: 9px;
+    height: 18px;
+    background: #00ff66;
+    vertical-align: middle;
+    animation: blink .7s infinite;
+}
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=SEU_USUARIO&theme=tokyonight&hide_border=true" />
-</p>
+@keyframes blink {
+    50% {
+        opacity: 0;
+    }
+}
 
----
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 25px;
+    flex-wrap: wrap;
+}
 
-## 🏆 Conquistas
+button {
+    background: transparent;
+    color: #00ff66;
+    border: 1px solid #00ff66;
+    padding: 12px 25px;
+    font-family: inherit;
+    cursor: pointer;
+    transition: .3s;
+}
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SEU_USUARIO&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4" />
-</p>
+button:hover {
+    background: #00ff66;
+    color: #000;
+    box-shadow: 0 0 25px #00ff66;
+    transform: translateY(-3px);
+}
 
----
+.status {
+    margin-top: 25px;
+    text-align: center;
+    color: #00ffff;
+    animation: pulse 1.5s infinite;
+}
 
-## 📌 Projetos
+@keyframes pulse {
+    50% {
+        opacity: .4;
+    }
+}
 
-### 🚀 Projeto 1
+/* Partículas */
+.particle {
+    position: fixed;
+    width: 2px;
+    height: 2px;
+    background: #00ff66;
+    box-shadow: 0 0 8px #00ff66;
+    animation: float linear infinite;
+    pointer-events: none;
+}
 
-> Descrição do seu projeto.
+@keyframes float {
+    from {
+        transform: translateY(100vh);
+        opacity: 0;
+    }
 
-**Tecnologias:** JavaScript • React • Node.js
+    20% {
+        opacity: 1;
+    }
 
-[🔗 Ver projeto](https://github.com/SEU_USUARIO/SEU_REPOSITORIO)
+    to {
+        transform: translateY(-10vh);
+        opacity: 0;
+    }
+}
+</style>
+</head>
 
----
+<body>
 
-### 🎨 Projeto 2
+<canvas id="matrix"></canvas>
 
-> Descrição do seu projeto.
+<div class="container">
 
-**Tecnologias:** HTML • CSS • JavaScript
+    <h1>HACKER</h1>
 
-[🔗 Ver projeto](https://github.com/SEU_USUARIO/SEU_REPOSITORIO)
+    <div class="subtitle">
+        SYSTEM // CYBER INTERFACE
+    </div>
 
----
+    <div class="terminal" id="terminal">
+        <div class="line">
+            <span class="prompt">root@system:~$</span> initializing...
+        </div>
 
-## 🌐 Onde me encontrar
+        <div class="line">
+            <span class="prompt">root@system:~$</span> loading interface...
+        </div>
 
-<p align="center">
+        <div class="line">
+            <span class="prompt">root@system:~$</span> connection established
+        </div>
 
-<a href="https://linkedin.com/in/SEU_USUARIO">
-  <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
+        <div class="line">
+            <span class="prompt">root@system:~$</span>
+            <span id="typing"></span><span class="cursor"></span>
+        </div>
+    </div>
 
-<a href="https://instagram.com/SEU_USUARIO">
-  <img src="https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white">
-</a>
+    <div class="buttons">
+        <button onclick="runCommand('ACCESS GRANTED')">
+            ACCESS
+        </button>
 
-<a href="mailto:SEU_EMAIL">
-  <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
+        <button onclick="runCommand('SYSTEM SCANNING...')">
+            SCAN
+        </button>
 
-</p>
+        <button onclick="runCommand('SECURE MODE ENABLED')">
+            SECURE
+        </button>
+    </div>
 
----
+    <div class="status">
+        ● SYSTEM ONLINE
+    </div>
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00D9FF,100:6C63FF&height=120&section=footer" />
-</p>
+</div>
+
+<script>
+/* Matrix Effect */
+const canvas = document.getElementById("matrix");
+const ctx = canvas.getContext("2d");
+
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+const chars =
+"01ABCDEFGHIJKLMNOPQRSTUVWXYZ#$%&@<>[]{}";
+
+const fontSize = 14;
+let columns = Math.floor(canvas.width / fontSize);
+let drops = Array(columns).fill(1);
+
+function matrix() {
+    ctx.fillStyle = "rgba(0, 0, 0, 0.08)";
+    ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+    ctx.fillStyle = "#00ff66";
+    ctx.font = fontSize + "px monospace";
+
+    for (let i = 0; i < drops.length; i++) {
+        const char = chars[
+            Math.floor(Math.random() * chars.length)
+        ];
+
+        ctx.fillText(char, i * fontSize, drops[i] * fontSize);
+
+        if (
+            drops[i] * fontSize > canvas.height &&
+            Math.random() > .975
+        ) {
+            drops[i] = 0;
+        }
+
+        drops[i]++;
+    }
+}
+
+setInterval(matrix, 40);
+
+window.addEventListener("resize", () => {
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    columns = Math.floor(canvas.width / fontSize);
+    drops = Array(columns).fill(1);
+});
+
+/* Typing Effect */
+const messages = [
+    "waiting for command...",
+    "welcome to the network...",
+    "system ready...",
+    "enter command..."
+];
+
+let messageIndex = 0;
+let charIndex = 0;
+
+function typeText() {
+    const element = document.getElementById("typing");
+    const text = messages[messageIndex];
+
+    element.textContent = text.substring(0, charIndex);
+
+    charIndex++;
+
+    if (charIndex > text.length) {
+        setTimeout(() => {
+            charIndex = 0;
+            messageIndex =
+                (messageIndex + 1) % messages.length;
+        }, 1800);
+
+        return;
+    }
+
+    setTimeout(typeText, 70);
+}
+
+typeText();
+
+/* Buttons */
+function runCommand(command) {
+    const terminal = document.getElementById("terminal");
+
+    const line = document.createElement("div");
+    line.className = "line";
+
+    line.innerHTML =
+        `<span class="prompt">root@system:~$</span> ${command}`;
+
+    terminal.appendChild(line);
+
+    terminal.scrollTop = terminal.scrollHeight;
+
+    setTimeout(() => {
+        line.style.color = "#00ffff";
+    }, 100);
+}
+
+/* Particles */
+for (let i = 0; i < 80; i++) {
+    const particle = document.createElement("div");
+
+    particle.className = "particle";
+
+    particle.style.left =
+        Math.random() * 100 + "vw";
+
+    particle.style.animationDuration =
+        (3 + Math.random() * 8) + "s";
+
+    particle.style.animationDelay =
+        Math.random() * 8 + "s";
+
+    document.body.appendChild(particle);
+}
+</script>
+
+</body>
+</html>
+```
