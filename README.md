@@ -3,11 +3,11 @@
 
 </div>
 👋 Sobre mim
-Olá! Eu sou [SEU NOME], desenvolvedor [SUA ÁREA] apaixonado por tecnologia e por transformar ideias em projetos reais.
+Olá! Eu sou Luiz, desenvolvedor Sistemas apaixonado por tecnologia e por transformar ideias em projetos reais.
 
-Atualmente estou focado em [ÁREA/TECNOLOGIA], buscando evoluir minhas habilidades e criar soluções cada vez melhores.
+Atualmente estou focado em programador, buscando evoluir minhas habilidades e criar soluções cada vez melhores.
 
-🎯 Objetivo: conquistar uma oportunidade como [CARGO DESEJADO].
+🎯 Objetivo: conquistar uma oportunidade como programador/tecnologias/Analista.
 
 🌱 Atualmente aprendendo: [TECNOLOGIA]
 
@@ -24,17 +24,6 @@ Frameworks & Ferramentas
 🚀 [Nome do Projeto]
 [Descrição curta do projeto]
 
-React JavaScript CSS
-
-💻 [Nome do Projeto]
-[Descrição curta do projeto]
-
-Python API SQL
-
-📱 [Nome do Projeto]
-[Descrição curta do projeto]
-
-React Native Node.js
 
 </div>
 📊 GitHub Stats
