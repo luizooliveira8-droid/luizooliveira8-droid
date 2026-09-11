@@ -21,11 +21,7 @@ Frameworks & Ferramentas
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,git,github,vscode,docker" /> </div>
 ⭐ Projetos em destaque
 <div align="center">
-
-📊 GitHub Stats
-<div align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=transparent&hide_border=true&title_color=6C63FF&icon_color=00C9FF" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=transparent&hide_border=true&title_color=6C63FF" /> </div>
-🐍 Minhas contribuições
-<div align="center"> <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_USUARIO/output/github-contribution-grid-snake.svg" /> </div>
+  
 🌟 Um pouco mais sobre mim
 💻 Desenvolvedor
 🚀 Apaixonado por tecnologia
