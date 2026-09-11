@@ -1,49 +1,97 @@
-Olá! 👋 Eu sou [SEU NOME]
-💻 [SEU CARGO / ÁREA]
-🚀 Buscando oportunidades para crescer profissionalmente e contribuir em projetos reais.
-
-👨‍💻 Sobre mim
-Sou [breve descrição sobre você].
-
-Tenho interesse em [área principal] e estou constantemente aprimorando meus conhecimentos em tecnologia.
-
-🔭 Atualmente trabalhando/estudando em [projeto ou tecnologia]
-🌱 Aprendendo [tecnologia]
-🎯 Buscando oportunidades como [cargo desejado]
-📍 [Cidade, Estado]
-📫 Contato: [seu e-mail]
-🛠️ Tecnologias
-Linguagens
+<div align="center">
+> HELLO_WORLD.exe
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Ol%C3%A1%2C+eu+sou+[SEU+NOME];Desenvolvedor+%5B%C3%81REA%5D;Code+%7C+Build+%7C+Innovate;Transformando+ideias+em+c%C3%B3digo..." />
+╔════════════════════════════════════════════════════╗
+║                                                    ║
+║   [ SYSTEM ONLINE ]                                ║
+║                                                    ║
+║   > Desenvolvedor: [SEU NOME]                     ║
+║   > Especialidade: [SUA ÁREA]                      ║
+║   > Status: DISPONÍVEL PARA OPORTUNIDADES         ║
+║   > Location: [SUA CIDADE]                         ║
+║                                                    ║
+╚════════════════════════════════════════════════════╝
 
 
-Front-end
+
+</div>
+> whoami
+$ whoami
+
+[SEU NOME]
+
+> Desenvolvedor apaixonado por tecnologia
+> Criador de soluções
+> Entusiasta de programação
+> Sempre aprendendo algo novo
+
+$ echo "Transformando café em código..."
+
+> skills --list
+<div align="center">
+⚡ PROGRAMMING
 
 
-Ferramentas
+🌐 FRONT-END
 
 
-🚀 Projetos em destaque
-📌 [Nome do Projeto]
-Breve descrição do projeto e do problema que ele resolve.
+🛠️ TOOLS
 
-Tecnologias: [Tecnologia 1] • [Tecnologia 2] • [Tecnologia 3]
 
-🔗 Ver projeto
+</div>
+> projects
+╭──────────────────────────────────────────────────╮
+│                 FEATURED PROJECTS                 │
+╰──────────────────────────────────────────────────╯
 
-📌 [Nome do Projeto]
-Breve descrição do projeto.
+🟢 [PROJECT_01]
+[Descrição curta e impactante do projeto]
 
-Tecnologias: [Tecnologia 1] • [Tecnologia 2]
+STACK
+├── [Tecnologia]
+├── [Tecnologia]
+└── [Tecnologia]
 
-🔗 Ver projeto
+🔗 ACCESS PROJECT
 
-📌 [Nome do Projeto]
-Breve descrição do projeto.
+🔵 [PROJECT_02]
+[Descrição curta do projeto]
 
-Tecnologias: [Tecnologia 1] • [Tecnologia 2]
+STACK
+├── [Tecnologia]
+├── [Tecnologia]
+└── [Tecnologia]
 
-🔗 Ver projeto
+🔗 ACCESS PROJECT
 
-📊 GitHub
-📫 Vamos conversar?
-⭐ Obrigado por visitar meu perfil!
+🟣 [PROJECT_03]
+[Descrição curta do projeto]
+
+STACK
+├── [Tecnologia]
+├── [Tecnologia]
+└── [Tecnologia]
+
+🔗 ACCESS PROJECT
+
+> github --stats
+<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00FF41&icon_color=00FFFF&text_color=FFFFFF" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00FF41&text_color=FFFFFF" /> </div>
+> contribution_graph
+<div align="center">
+</div>
+> contact
+┌─────────────────────────────────────────────┐
+│                                             │
+│  $ connect --with [SEU_NOME]                │
+│                                             │
+│  LinkedIn  →  [SEU_LINKEDIN]                │
+│  Email     →  [SEU_EMAIL]                   │
+│  Portfolio →  [SEU_PORTFOLIO]               │
+│                                             │
+│  [ CONNECTION READY ]                       │
+│                                             │
+└─────────────────────────────────────────────┘
+
+<div align="center">
+01001000 01001001 👾
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=100&section=footer"/> </div>
