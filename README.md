@@ -20,16 +20,7 @@ Frameworks & Ferramentas
 <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,git,github,vscode,docker" /> </div>
 ⭐ Projetos em destaque
 <div align="center">
-🚀 Projeto 01
-[Descrição do seu projeto]
-
-💻 Projeto 02
-[Descrição do seu projeto]
-
-📱 Projeto 03
-[Descrição do seu projeto]
-
-</div>
+  
 🌟 Um pouco mais sobre mim
 <div align="center">
 💻 Desenvolvedor
