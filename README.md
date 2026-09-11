@@ -1,146 +1,109 @@
-@-moz-document domain("github.com") {
+// ==UserScript==
+// @name         GitHub Custom Theme
+// @namespace    github-custom-theme
+// @version      1.0
+// @description  Personaliza a aparência do GitHub
+// @match        https://github.com/*
+// @grant        GM_addStyle
+// ==/UserScript==
 
-    /* =========================
-       HACKER MODE
-       ========================= */
+(function () {
+    'use strict';
 
-    :root {
-        --bg: #000000;
-        --bg2: #050a05;
-        --green: #00ff41;
-        --green2: #00cc33;
-        --dark-green: #003b12;
-        --border: #064d1a;
-        --text: #b7ffbf;
-    }
+    GM_addStyle(`
+        /* Fundo geral */
+        body {
+            background: #0b0f14 !important;
+            color: #e6edf3 !important;
+        }
 
-    /* Fundo */
-    body,
-    .application-main,
-    main {
-        background: var(--bg) !important;
-        color: var(--text) !important;
-        font-family: "Courier New", monospace !important;
-    }
+        /* Cabeçalho */
+        .AppHeader {
+            background: #0d1117 !important;
+            border-bottom: 1px solid #30363d !important;
+        }
 
-    /* Header */
-    header,
-    .AppHeader {
-        background: #000 !important;
-        border-bottom: 1px solid var(--border) !important;
-        box-shadow: 0 0 15px #00ff4122 !important;
-    }
+        /* Links */
+        a {
+            color: #58a6ff !important;
+        }
 
-    /* Texto */
-    body,
-    p,
-    span,
-    div {
-        font-family: "Courier New", monospace;
-    }
+        a:hover {
+            color: #79c0ff !important;
+            text-decoration: none !important;
+        }
 
-    /* Links */
-    a {
-        color: var(--green) !important;
-        text-shadow: 0 0 5px #00ff4166;
-    }
+        /* Cards e caixas */
+        .Box,
+        .BorderGrid-row,
+        .repository-content,
+        .markdown-body {
+            background: #111820 !important;
+            border-color: #30363d !important;
+        }
 
-    a:hover {
-        color: #7dff91 !important;
-        text-shadow: 0 0 12px var(--green);
-    }
+        /* Botões */
+        .Button,
+        .btn {
+            background: #21262d !important;
+            color: #e6edf3 !important;
+            border-color: #30363d !important;
+            border-radius: 8px !important;
+        }
 
-    /* Cards */
-    .Box,
-    .BorderGrid-cell {
-        background: var(--bg2) !important;
-        border-color: var(--border) !important;
-        border-radius: 3px !important;
-        box-shadow: 0 0 10px #00ff4110 !important;
-    }
+        .Button:hover,
+        .btn:hover {
+            background: #30363d !important;
+        }
 
-    /* Botões */
-    .btn {
-        background: #001a08 !important;
-        color: var(--green) !important;
-        border: 1px solid var(--green2) !important;
-        border-radius: 2px !important;
-        font-family: "Courier New", monospace !important;
-    }
+        /* Campo de pesquisa */
+        input,
+        textarea {
+            background: #0d1117 !important;
+            color: #e6edf3 !important;
+            border-color: #30363d !important;
+            border-radius: 8px !important;
+        }
 
-    .btn:hover {
-        background: #003b12 !important;
-        color: #fff !important;
-        box-shadow: 0 0 15px #00ff4166 !important;
-    }
+        /* Código */
+        pre,
+        code {
+            background: #090c10 !important;
+            border-radius: 8px !important;
+        }
 
-    /* Inputs */
-    input,
-    textarea,
-    select {
-        background: #000 !important;
-        color: var(--green) !important;
-        border: 1px solid var(--border) !important;
-        border-radius: 2px !important;
-        font-family: "Courier New", monospace !important;
-    }
+        /* Barra lateral */
+        .Layout-sidebar {
+            background: #0d1117 !important;
+        }
 
-    input:focus,
-    textarea:focus {
-        border-color: var(--green) !important;
-        outline: none !important;
-        box-shadow: 0 0 10px #00ff4144 !important;
-    }
+        /* Títulos */
+        h1, h2, h3, h4 {
+            color: #f0f6fc !important;
+        }
 
-    /* Código */
-    pre,
-    code,
-    .highlight {
-        background: #020602 !important;
-        color: var(--green) !important;
-        border-color: var(--border) !important;
-        font-family: "Courier New", monospace !important;
-    }
+        /* Avatar */
+        img.avatar {
+            border-radius: 50% !important;
+            box-shadow: 0 0 0 2px #58a6ff;
+        }
 
-    /* Títulos */
-    h1,
-    h2,
-    h3,
-    h4 {
-        color: var(--green) !important;
-        font-family: "Courier New", monospace !important;
-        text-shadow: 0 0 8px #00ff4155;
-    }
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 10px;
+        }
 
-    /* Linha divisória */
-    hr {
-        border-color: var(--border) !important;
-    }
+        ::-webkit-scrollbar-track {
+            background: #0b0f14;
+        }
 
-    /* Scrollbar */
-    ::-webkit-scrollbar {
-        width: 8px;
-        height: 8px;
-    }
+        ::-webkit-scrollbar-thumb {
+            background: #30363d;
+            border-radius: 10px;
+        }
 
-    ::-webkit-scrollbar-track {
-        background: #000;
-    }
-
-    ::-webkit-scrollbar-thumb {
-        background: #005c19;
-        border-radius: 0;
-    }
-
-    ::-webkit-scrollbar-thumb:hover {
-        background: var(--green);
-        box-shadow: 0 0 10px var(--green);
-    }
-
-    /* Seleção de texto */
-    ::selection {
-        background: var(--green);
-        color: #000;
-    }
-
-}
+        ::-webkit-scrollbar-thumb:hover {
+            background: #484f58;
+        }
+    `);
+})();
