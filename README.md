@@ -5,10 +5,10 @@
 ║                                                    ║
 ║   [ SYSTEM ONLINE ]                                ║
 ║                                                    ║
-║   > Desenvolvedor: [SEU NOME]                     ║
-║   > Especialidade: [SUA ÁREA]                      ║
+║   > Desenvolvedor: [Luiz Otávio]                     ║
+║   > Especialidade: [Programor]                      ║
 ║   > Status: DISPONÍVEL PARA OPORTUNIDADES         ║
-║   > Location: [SUA CIDADE]                         ║
+║   > Location: [Curitiba/PR]                         ║
 ║                                                    ║
 ╚════════════════════════════════════════════════════╝
 
@@ -18,7 +18,7 @@
 > whoami
 $ whoami
 
-[SEU NOME]
+[Luiz Otavio Da Cruz Lourenço De Oliveira]
 
 > Desenvolvedor apaixonado por tecnologia
 > Criador de soluções
@@ -38,40 +38,6 @@ $ echo "Transformando café em código..."
 🛠️ TOOLS
 
 
-</div>
-> projects
-╭──────────────────────────────────────────────────╮
-│                 FEATURED PROJECTS                 │
-╰──────────────────────────────────────────────────╯
-
-🟢 [PROJECT_01]
-[Descrição curta e impactante do projeto]
-
-STACK
-├── [Tecnologia]
-├── [Tecnologia]
-└── [Tecnologia]
-
-🔗 ACCESS PROJECT
-
-🔵 [PROJECT_02]
-[Descrição curta do projeto]
-
-STACK
-├── [Tecnologia]
-├── [Tecnologia]
-└── [Tecnologia]
-
-🔗 ACCESS PROJECT
-
-🟣 [PROJECT_03]
-[Descrição curta do projeto]
-
-STACK
-├── [Tecnologia]
-├── [Tecnologia]
-└── [Tecnologia]
-
 🔗 ACCESS PROJECT
 
 > github --stats
@@ -82,10 +48,10 @@ STACK
 > contact
 ┌─────────────────────────────────────────────┐
 │                                             │
-│  $ connect --with [SEU_NOME]                │
+│  $ connect --with [Luiz Otavio]                │
 │                                             │
-│  LinkedIn  →  [SEU_LINKEDIN]                │
-│  Email     →  [SEU_EMAIL]                   │
+│  LinkedIn  →  [https://www.linkedin.com/in/luiz-otavio-6b19303b6?utm_source=share_via&utm_content=profile&utm_medium=member_android]                │
+│  Email     →  [otavuiz1@gmail.com]                   │
 │  Portfolio →  [SEU_PORTFOLIO]               │
 │                                             │
 │  [ CONNECTION READY ]                       │
