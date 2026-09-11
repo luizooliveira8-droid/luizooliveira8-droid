@@ -1,63 +1,53 @@
-<div align="center">
-> HELLO_WORLD.exe
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=700&lines=Ol%C3%A1%2C+eu+sou+[SEU+NOME];Desenvolvedor+%5B%C3%81REA%5D;Code+%7C+Build+%7C+Innovate;Transformando+ideias+em+c%C3%B3digo..." />
-╔════════════════════════════════════════════════════╗
-║                                                    ║
-║   [ SYSTEM ONLINE ]                                ║
-║                                                    ║
-║   > Desenvolvedor: [Luiz Otávio]                     ║
-║   > Especialidade: [Programor]                      ║
-║   > Status: DISPONÍVEL PARA OPORTUNIDADES         ║
-║   > Location: [Curitiba/PR]                         ║
-║                                                    ║
-╚════════════════════════════════════════════════════╝
-
+<div align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=6C63FF,00C9FF&height=220&section=header&text=Olá%2C%20eu%20sou%20[SEU%20NOME]!&fontSize=40&fontColor=FFFFFF&animation=fadeIn&fontAlignY=35" /> <img src="https://readme-typing-svg.demolab.com?font=Poppins&size=24&duration=3000&pause=1000&color=6C63FF&center=true&vCenter=true&width=700&lines=Desenvolvedor+%5BSUA+ÁREA%5D;Apaixonado+por+tecnologia;Criando+projetos+e+solu%C3%A7%C3%B5es;Sempre+aprendendo+algo+novo+%F0%9F%9A%80" /> <br>
 
 
 </div>
-> whoami
-$ whoami
+👋 Sobre mim
+Olá! Eu sou [SEU NOME], desenvolvedor [SUA ÁREA] apaixonado por tecnologia e por transformar ideias em projetos reais.
 
-[Luiz Otavio Da Cruz Lourenço De Oliveira]
+Atualmente estou focado em [ÁREA/TECNOLOGIA], buscando evoluir minhas habilidades e criar soluções cada vez melhores.
 
-> Desenvolvedor apaixonado por tecnologia
-> Criador de soluções
-> Entusiasta de programação
-> Sempre aprendendo algo novo
+🎯 Objetivo: conquistar uma oportunidade como [CARGO DESEJADO].
 
-$ echo "Transformando café em código..."
+🌱 Atualmente aprendendo: [TECNOLOGIA]
 
-> skills --list
+💡 Interesses: [DESENVOLVIMENTO WEB / MOBILE / BACK-END / IA / ETC.]
+
+🚀 Tecnologias
 <div align="center">
-⚡ PROGRAMMING
-
-
-🌐 FRONT-END
-
-
-🛠️ TOOLS
-
-
-🔗 ACCESS PROJECT
-
-> github --stats
-<div align="center"> <img src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00FF41&icon_color=00FFFF&text_color=FFFFFF" /> <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=chartreuse-dark&hide_border=true&bg_color=000000&title_color=00FF41&text_color=FFFFFF" /> </div>
-> contribution_graph
+Linguagens
+<img src="https://skillicons.dev/icons?i=javascript,typescript,python,java,html,css" />
+Frameworks & Ferramentas
+<img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,git,github,vscode,docker" /> </div>
+⭐ Projetos em destaque
 <div align="center">
+🚀 [Nome do Projeto]
+[Descrição curta do projeto]
+
+React JavaScript CSS
+
+💻 [Nome do Projeto]
+[Descrição curta do projeto]
+
+Python API SQL
+
+📱 [Nome do Projeto]
+[Descrição curta do projeto]
+
+React Native Node.js
+
 </div>
-> contact
-┌─────────────────────────────────────────────┐
-│                                             │
-│  $ connect --with [Luiz Otavio]                │
-│                                             │
-│  LinkedIn  →  [https://www.linkedin.com/in/luiz-otavio-6b19303b6?utm_source=share_via&utm_content=profile&utm_medium=member_android]                │
-│  Email     →  [otavuiz1@gmail.com]                   │
-│  Portfolio →  [SEU_PORTFOLIO]               │
-│                                             │
-│  [ CONNECTION READY ]                       │
-│                                             │
-└─────────────────────────────────────────────┘
+📊 GitHub Stats
+<div align="center"> <img height="170" src="https://github-readme-stats.vercel.app/api?username=SEU_USUARIO&show_icons=true&theme=transparent&hide_border=true&title_color=6C63FF&icon_color=00C9FF" /> <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEU_USUARIO&layout=compact&theme=transparent&hide_border=true&title_color=6C63FF" /> </div>
+🐍 Minhas contribuições
+<div align="center"> <img src="https://raw.githubusercontent.com/SEU_USUARIO/SEU_USUARIO/output/github-contribution-grid-snake.svg" /> </div>
+🌟 Um pouco mais sobre mim
+💻 Desenvolvedor
+🚀 Apaixonado por tecnologia
+📚 Aprendizado contínuo
+🎯 Focado em evolução
+🤝 Aberto a novas oportunidades
 
-<div align="center">
-01001000 01001001 👾
-<img src="https://capsule-render.vercel.app/api?type=waving&color=00FF41&height=100&section=footer"/> </div>
+<div align="center"> <img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="400">
+Vamos construir algo incrível juntos? 🚀
+</div> <img src="https://capsule-render.vercel.app/api?type=waving&color=00C9FF,6C63FF&height=120&section=footer&animation=fadeIn" />
